@@ -1,0 +1,31 @@
+{
+    "name": "SerialPrint",
+    "version": "1.0.0",
+    "description": "Prints to the serial interface just like printf(), i.e. with a string format followed by n arguments but is limited to 79 characters",
+    "keywords": "Serial, Print",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/Micro-controllers/utilslib.git"
+    },
+    "export": {
+        "exclude": [
+            "main.cpp"
+        ]
+    }, 
+    "authors":
+    [
+      {
+        "name": "PJMD",
+        "email": "pjmd@jptech.com",
+        "url": "https://www.ptech/contact",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://www.ptehch.com/",
+    "dependencies": {
+    },
+    "frameworks": "*",
+    "platforms": "*"
+  }
